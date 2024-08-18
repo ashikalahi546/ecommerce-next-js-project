@@ -1,0 +1,27 @@
+export const sidebarData = [
+    {id:1 ,title:'Woman’s Fashion',submenu:[
+      {id:2 ,title:'Electronics'},
+      {id:3 ,title:'Home & Lifestyle'},
+      {id:4 ,title:'Medicine'},
+      {id:5 ,title:'Sports & Outdoor'},
+      {id:6 ,title:'Baby’s & Toys'},
+      {id:7 ,title:'Groceries & Pets'},
+      {id:8 ,title:'Groceries & Pets'},
+    ]},
+    {id:9 ,title:'Men’s Fashion',submenu:[
+      {id:10 ,title:'Electronics'},
+      {id:11 ,title:'Home & Lifestyle'},
+      {id:12 ,title:'Medicine'},
+      {id:13 ,title:'Sports & Outdoor'},
+      {id:14 ,title:'Baby’s & Toys'},
+      {id:15 ,title:'Groceries & Pets'},
+      {id:16 ,title:'Groceries & Pets'},
+    ]},
+    {id:17 ,title:'Electronics'},
+    {id:18,title:'Home & Lifestyle'},
+    {id:19 ,title:'Medicine'},
+    {id:20 ,title:'Sports & Outdoor'},
+    {id:21 ,title:'Baby’s & Toys'},
+    {id:22 ,title:'Groceries & Pets'},
+    {id:23 ,title:'Groceries & Pets'},
+]

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: -1.5px var(--swiper-pagination-bullet-horizontal-gap, 5px) !important;
+}
+.swiper-pagination-bullet {
+    width:12px !important ;
+    height:12px !important ;
+   background: white !important;
+   opacity: 50% !important;
+   
+}
+.swiper-pagination-bullet-active {
+
+    background: #DB4444 !important;
+    border:2px white solid !important;
+    opacity: 100% !important;
+}
+
+.trans{
+    transition: transform 0.5s ease;
+}
+.icon svg path{
+    /* fill: white; */
+    stroke: white;
+}
+
+/* scrollbar  */
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gainsboro;
+    border-radius: 15px;
+
+}
