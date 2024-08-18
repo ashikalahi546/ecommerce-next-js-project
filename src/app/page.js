@@ -18,7 +18,7 @@ export default function Home() {
         <SellingProducts />
         <Categories />
         <Products />
-        {/* <Arrival />  */}
+        <Arrival /> 
       </div>
       <Footer />
     </main>
