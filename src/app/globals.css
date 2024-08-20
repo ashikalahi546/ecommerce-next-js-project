@@ -22,6 +22,7 @@
 
 .trans{
     transition: transform 0.5s ease;
+
 }
 .icon svg path{
     /* fill: white; */
@@ -41,3 +42,4 @@
     border-radius: 15px;
 
 }
+

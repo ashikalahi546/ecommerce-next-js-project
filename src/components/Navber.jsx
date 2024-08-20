@@ -1,5 +1,5 @@
 "use client";
-import { LoveIcon, SearchIcon, ShopIcon } from "@/icons/Icons";
+import { LoveIcon, SearchIcon, ShopIcon, UpIcon } from "@/icons/Icons";
 import { navberData } from "./data/NavberData";
 import { useEffect, useState } from "react";
 
@@ -19,6 +19,10 @@ const Navber = () => {
       window.removeEventListener("scroll", scrollHeader);
     };
   }, []);
+
+  const scrollUp = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <div>
       <div
@@ -59,7 +63,15 @@ const Navber = () => {
           </button>
         </div>
       </div>
-      j<div className="border-b mt-4"></div>
+      <div className="border-b mt-4"></div>
+      <div
+        className={`fixed bottom-8 right-8 size-[46px] bg-[#F5F5F5] cursor-pointer flex items-center justify-center rounded-full  z-50 transition-opacity duration-300 ease-in-out ${
+          sticky ? "opacity-100 " : "opacity-0 "
+        }`}
+        onClick={scrollUp}
+      >
+        <UpIcon />
+      </div>
     </div>
   );
 };
